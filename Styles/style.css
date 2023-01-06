@@ -10,10 +10,15 @@
     display: flex;
     background-image: url('../images/banner/banner2.png' );
     background-size: cover; 
-    justify-content: flex-end;
+    position: relative;
+    justify-content: right;
       text-align: right;
     align-items: center; 
 } 
+.relative{
+    position: relative;
+    right: 200px;
+}
 .header-title {
     font-weight: 700;
     font-size: 65px;
@@ -26,4 +31,9 @@
     border: none;
     background-color: #ff5959;
     color: white;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
 }
