@@ -125,8 +125,32 @@ li{
     border: none;
     color: #F15B22;
 }
-.footer-section{
+/* 3rd Section of main */
+
+.aline{
     margin-top: 200px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url('../images/donation13.jpg'),
+    linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6));
+    background-blend-mode: overlay;
+    
+    background-size: cover;
+    color: white; 
+     justify-content: center;
+     text-align: center;
+    align-items: center; 
+}
+
+.Banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+/* Footer Section  */
+.footer-section{
+    
     height: 600px;
     background-color: #151414;
     color: white;
